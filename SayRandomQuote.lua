@@ -143,7 +143,7 @@ srq_quotes["rez"] = {
   "Red rover, red rover, send %t right over!",
   "Rez: %t",
   "Rise and kick moar azz %t.",
-  "Sorry you died %t, your healer was too busy looking at po...I mean I had baby aggro. Yeah. Baby aggro.",
+  "Sorry you died %t, your healer was too busy looking at po...I mean I had lag. Yeah. Lag.",
   "There are worse things then death, %t. Have you ever grouped with Nampy?",
   "Well %t, you tried your best, but apparently your best is pretty terrible.",
   "You don't deserve a cute rez macro, %t. You deserve to die. Oh you did! Karma works.",
