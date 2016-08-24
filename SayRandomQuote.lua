@@ -32,6 +32,12 @@ srq_quotes["mount"] = {
 "",
 }
 
+srq_quotes["pull"] = {
+"Pulling %t!",
+">>> Pulling %t <<<",
+"<<< Pulling %t >>>",
+}
+
 srq_quotes["rez"] = {
 ">>> Rezzing %t <<<",
 "<<< Rezzing %t >>>",
