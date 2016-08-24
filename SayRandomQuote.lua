@@ -227,7 +227,15 @@ function srq_SlashCommand(var1)
   -- Declare what we'll be using as local, so it doesn't mess
   -- with another addon's global variables
 
+  -- q = slash command?
+  -- command = quoteset?
+  -- parameter = channel?
+  -- index = counter for separating the variables?
+
   local q, command, parameter, index
+
+  -- If no quoteset is passed, say one from the quoteset named "random."
+  -- FUTURE: allow user to set default quoteset via saved variables.
 
   if var1=="" then var1="random"
   end
@@ -242,6 +250,8 @@ function srq_SlashCommand(var1)
   -- we need to split it up. For this code, command
   -- will represent the quote group to use, and parameter
   -- will be the chat type to use.
+  --
+  -- /srq [quoteset] [channel]
 
   index = string.find(var1, " ");
 
@@ -252,11 +262,29 @@ function srq_SlashCommand(var1)
     command = string.sub(var1, 1, index-1);
     parameter = string.sub(var1, index+1);
 
-  -- Otherwise, we just have a command, so set our parameter to the
-  -- default chat type of "say"
+  -- Otherwise, we just have a command, so set our parameter to whatever chat channel fits.
+
+  -- Instance group
+
+  elseif IsInGroup(LE_PARTY_CATEGORY_INSTANCE) then
+    command = var1;
+    parameter = "INSTANCE";
+
+  -- Raid group
+
+  elseif IsInRaid() then
+    command = var1;
+    parameter = "RAID";
+
+  -- Party
+
+  elseif IsInGroup(LE_PARTY_CATEGORY_HOME) then
+    command = var1;
+    parameter = "PARTY";
+
+  -- Say
 
   else
-
     command = var1;
     parameter = "SAY";
 
@@ -269,7 +297,7 @@ function srq_SlashCommand(var1)
   if(q~=nil) then
     SendChatMessage(q[math.random(#q)], string.upper(parameter));
   else
-    DEFAULT_CHAT_FRAME:AddMessage("That quote set doesn't exist! ("..command..")");
+    ChatFrame1:AddMessage("That quote set doesn't exist! ("..command..")");
   end
 
 end
