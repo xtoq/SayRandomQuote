@@ -176,6 +176,33 @@ srq_quotes["random"] = {
   "Your girlfriend ain't mad at you, she's just jealous of your epics.",
 }
 
+srq_quotes["randomwow"] = {
+  "You no take candle!",
+  "You are not prepared!",
+  "The dark times will pass.",
+  "The Eternal Sun guides us.",
+  "Death to all who oppose us!",
+  "Bal'a dash, malanore.",
+  "Suffer well.",
+  "Archenon poros.",
+  "May the light embrace you.",
+  "Light's blessing to you.",
+  "Krona ki cristorr.",
+  "Dark Lady watch over you.",
+  "Do not tempt my wrath!",
+  "Me like... shiny."",
+  "Time is money, friend!",
+  "GTL friend; gambling, tinkering, laundry."",
+  "Can I lighten that coin purse up for ya?",
+  "I got the best deals, anywhere!",
+  "Go with honor, friend.",
+  "For Azeroth.",
+  "The beginning of wisdom is the statement 'I do not know.' The person who cannot make that statement is one who will never learn anything. And I have prided myself on my ability to learn. - Thrall",
+  "We named him Draenosh. It means 'Heart of Draenor' in orcish. I would not let the warlocks take him. My boy would be safe, hidden away by the elders of Garadar. I made a promise to his mother before she died, that I would cross the Dark Portal alone - whether I lived or died, my son would be safe...untainted. Today, I fulfill that promise. - Varok Saurfang",
+  "I am he who watches they. I am the fist of retribution. That which does quell the recalitrant. Dare you defy the Warchief? Dare you face my merciless judgement? - High Overlord Saurfang"
+  "Too soon! You have awakened me too soon, Executus! What is the meaning of this intrusion? - Ragnaros",
+}
+
 srq_quotes["summon"] = {
   "%t, come on down! You're the next contestant on 'Lazy Ass WoW Players!'",
   "Accepting this summon will result in the 'Recently Summoned' debuff, which decreases %t's chace at epic lewts by 100% for the next four hours.",
