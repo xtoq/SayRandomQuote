@@ -1,18 +1,18 @@
 srq_quotes = {}
 
 srq_quotes["gratz"] = {
-"gratz!",
+" /congrats",
+" /congratulations",
+" /grats",
+" /gratz",
+"congrats",
 "congrats!",
-"way to go",
 "congratulations",
 "grats",
 "gratz",
 "GRATZ!",
-" /congratulations",
-" /grats",
-" /congrats",
-" /gratz",
-"congrats",
+"gratz!",
+"way to go",
 "wtg",
 }
 
@@ -33,9 +33,9 @@ srq_quotes["mount"] = {
 }
 
 srq_quotes["pull"] = {
-"Pulling %t!",
 ">>> Pulling %t <<<",
 "<<< Pulling %t >>>",
+"Pulling %t!",
 }
 
 srq_quotes["rez"] = {
