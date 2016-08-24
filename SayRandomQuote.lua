@@ -128,12 +128,53 @@ function srq_OnLoad()
 end
 
 function srq_SlashCommand(var1)
+
+  -- Declare what we'll be using as local, so it doesn't mess
+  -- with another addon's global variables
+
+  local q, command, parameter, index
+
   if var1=="" then var1="random"
   end
-  q=srq_quotes[var1];
-  if(q~=nil) then
-    SendChatMessage(q[math.random(#q)],"SAY");
+
+  -- Find the position of the parameters, if they exist. For
+  -- a chat command, you will have this typical setup:
+  --
+  -- /trigger command parameter
+  --
+  -- But when the slash handler gets this information, the
+  -- string passed is "command parameter" which is why
+  -- we need to split it up. For this code, command
+  -- will represent the quote group to use, and parameter
+  -- will be the chat type to use.
+
+  index = string.find(var1, " ");
+
+  -- If there were parameters found, separate them from the command
+
+  if ( index ) then
+
+    command = string.sub(var1, 1, index-1);
+    parameter = string.sub(var1, index+1);
+
+  -- Otherwise, we just have a command, so set our parameter to the
+  -- default chat type of "say"
+
   else
-    DEFAULT_CHAT_FRAME:AddMessage("That quote set doesn't exist! ("..var1..")");
+
+    command = var1;
+    parameter = "SAY";
+
   end
+
+  q=srq_quotes[command];
+
+  -- When sending the chat message, make sure the parameter is uppercase
+
+  if(q~=nil) then
+    SendChatMessage(q[math.random(#q)], string.upper(parameter));
+  else
+    DEFAULT_CHAT_FRAME:AddMessage("That quote set doesn't exist! ("..command..")");
+  end
+
 end
