@@ -1,5 +1,45 @@
 srq_quotes = {}
 
+srq_quotes["drain"] = {
+"Don't cross the streams!!",
+"I suck....your soul!",
+"Get over here!",
+"It is better for civilization to be going down the drain than to be coming up it.",
+"I put my heart and my soul into my work, and have lost my mind in the process.",
+"Your own soul is nourished when you are kind; it is destroyed when you are cruel.",
+"Whatever satisfies the soul is truth.",
+"A soul you say? Give my pocketwatch to a savage and he'll think it has a soul!",
+"The finest souls are those that have the most variety and suppleness.",
+"There's nothing that cleanses your soul like getting the hell kicked out of you.",
+"Defeat may serve as well as victory to shake the soul and let the glory out.",
+"If you're losing your soul and you know it, then you've still got a soul left to lose.",
+"To be somebody you must last.",
+"To possess taste, one must have some soul. Let me have yours.",
+"Your soul will be dead even before your body; fear nothing further.",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+}
+
 srq_quotes["grats"] = {
   " /congrats",
   " /congratulations",
@@ -89,10 +129,25 @@ srq_quotes["pull"] = {
 }
 
 srq_quotes["rez"] = {
-  ">>> Rezzing %t <<<",
+  "%t fails at life. Literally.",
   "<<< Rezzing %t >>>",
+  ">>> Rezzing %t <<<",
+  "Aw, how cute, %t's dead AGAIN.",
+  "GAME OVER. Restart %t?",
+  "Hey the fire DOES buff you %t!",
+  "I rezzed your mom last night %t!",
+  "I'll rez you my pretty, and your little %t too!!!!!",
   "Incoming rez for %t",
+  "It's ok %t, just blame your death on lag. That's why you didn't get healed...",
+  "Quick %t, accept this rez before the necrophiliacs get here!",
+  "Red rover, red rover, send %t right over!",
   "Rez: %t",
+  "Rise and kick moar azz %t.",
+  "Sorry you died %t, your healer was too busy looking at po...I mean I had baby aggro. Yeah. Baby aggro.",
+  "There are worse things then death, %t. Have you ever grouped with Nampy?",
+  "Well %t, you tried your best, but apparently your best is pretty terrible.",
+  "You don't deserve a cute rez macro, %t. You deserve to die. Oh you did! Karma works.",
+  "Your subscription to life has expired %t, would you like to renew?",
 }
 
 srq_quotes["random"] = {
