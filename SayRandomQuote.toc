@@ -1,0 +1,7 @@
+## Interface:60200
+## Title:SayRandomQuote
+## Notes:Says a random quote from the list in the .lua file
+## Author: Bleric & xtoq [maintainer]
+## Version: 8.4.01
+
+SayRandomQuote.xml
