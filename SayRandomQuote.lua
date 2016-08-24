@@ -214,6 +214,47 @@ srq_quotes["drain"] = {
 "",
 }
 
+srq_quotes["summoning"] = {
+"Summoning %t, please click.",
+"What, your hearthstone on cooldown %t?",
+"Scotty, beam %t up! Didn't work? Guess you can't summon stupid.",
+"Sorry, Scotty's on break %t. Try again later.",
+"Summoning retards hasn't been tested before.  Are you volunteering %t?",
+"Click the portal for your free %t!",
+"By accepting this summon %t, you agree to pay my repair bill. How nice!",
+"%t, come on down! You're the next contestant on 'Lazy Ass WoW Players!'",
+"Summoning %t.  Declining this summon will result in death.  Survival not guaranteed if accepted.",
+"Summoning %t, click if you're horny.",
+"Summoning %t.  Please beat them like they owe you money.",
+"Summoning %t, click the effing portal!",
+"Red rover, red rover, send %t right over!",
+"Summoning %t.  Thousands served.",
+"Summoning %t.  Clicky clicky por favor.",
+"God %t, can't you WALK?",
+}
+
+srq_quotes["summonppl"] = {
+"Just because this lasts two minutes doesn't mean I want to stand here that long. Please click.",
+"Summoning %t, please click.  Wait, is this a Summoning Portal or a Doomguard Portal?  I always get those two mixed up...",
+"The two things I hate most are summoning people and not getting a 'thank you.'  Both are about to happen.",
+"Accepting this summon will result in the 'Recently Summoned' debuff, which decreases %t's chace at epic lewts by 100% for the next four hours.",
+"I actually hate you %t, I'm just doing this to help the group.",
+"Summoning %t.  Next person to pass the portal and not click goes on THE LIST.",
+"So, %t, care to explain why you weren't here on time? Don't worry, you can explain it to our fearless leader face-to-face. Enjoy.",
+"Why is %t so special? I mean, the rest of you managed to get here without help.",
+"Azeroth Yellow Cab!  Summoning %t, please click.",
+"Who wants to lend me their soul for the next shard?",
+"First one to click the portal gets 1g! (Not really.)",
+"If you don't want me to run up there, aggro all those mobs, sacrifice my Voidwalker and run like hell, I suggest you click this portal.",
+"Summoning Services!  Transporting slackers like %t since 2007! Please click.",
+"You know %t, you can get a mount at level 20 now.  Oh, no reason.  Just conversation.",
+"Hey %t, shards don't grow on trees you know!",
+"Do we HAVE to summon %t?  I'm sure I have a demon that could do their job.",
+"Every time I summon a player, I have to kill something.  You're damning my eternal WoW soul to Hell!  I hope you're happy %t.",
+"Every time you click this portal, Blizzard kills a noob.",
+"Whoa whoa whoa whoa whoa whoa whoa whoa. Whoa... whoa... whoa. Lois, this is not my Batman Glass.",
+}
+
 function srq_OnLoad()
 
   SlashCmdList["SRQ"] = srq_SlashCommand;
