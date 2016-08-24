@@ -12,11 +12,9 @@ Have you ever wanted to have a list of random sayings to say in WoW, but don't w
 
 To use these in a macro, simply include the slash command before or after the item/spell in your macro. The speech will fire at the same time as the item/spell:
 
-```
-#showtooltip
-/srq rez
-/cast Revive
-```
+    #showtooltip
+    /srq rez
+    /cast Revive
 
 # Use cases
 
@@ -31,21 +29,17 @@ To use these in a macro, simply include the slash command before or after the it
 
 A few generic quotesets with some quotes are included in the addon, but creating your own is super easy. Simply open `SayRandomQuote.lua` in a plain text editor such as Notepad and create a new set as below:
 
-```
-srq_quotes["setname"] = {
-  "Your quotation goes here.",
-  "Another quotation.",
-  "Make sure your lines end with commas after the end quotation mark.",
-}
-```
+    srq_quotes["setname"] = {
+      "Your quotation goes here.",
+      "Another quotation.",
+      "Make sure your lines end with commas after the end quotation mark.",
+    }
 
 ## Quotations
 
 Likewise, if you just want to add a new quotation to an existing quoteset, simply open `SayRandomQuote.lua` in a plain text editor such as Notepad and add your quotation using the following format:
 
-```
-"QUOTATION",
-```
+    "QUOTATION",
 
 Don't forget the comma at the end of the line!
 
