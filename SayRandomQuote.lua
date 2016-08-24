@@ -1,58 +1,58 @@
 srq_quotes = {}
 
 srq_quotes["grats"] = {
-" /congrats",
-" /congratulations",
-" /grats",
-" /gratz",
-"congrats",
-"congrats!",
-"congratulations",
-"grats",
-"gratz",
-"GRATZ!",
-"gratz!",
-"way to go",
-"wtg",
+  " /congrats",
+  " /congratulations",
+  " /grats",
+  " /gratz",
+  "congrats",
+  "congrats!",
+  "congratulations",
+  "grats",
+  "gratz",
+  "GRATZ!",
+  "gratz!",
+  "way to go",
+  "wtg",
 }
 
 srq_quotes["mount"] = {
-"Regulators...mount up.",
-"I'll get you my pretty, and your little dog too!",
-"Ding dong the witch ain't dead!",
-"Why walk when you can ride?",
-"You like it?  Thank the boys at 'Pimp my Mount.'",
-"Don't you wish your mount was hot like mine?",
-"I'm out of here.",
-"",
-"",
-"",
-"",
-"",
-"",
+  "Regulators...mount up.",
+  "I'll get you my pretty, and your little dog too!",
+  "Ding dong the witch ain't dead!",
+  "Why walk when you can ride?",
+  "You like it?  Thank the boys at 'Pimp my Mount.'",
+  "Don't you wish your mount was hot like mine?",
+  "I'm out of here.",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 }
 
 srq_quotes["pull"] = {
-">>> Pulling %t <<<",
-"<<< Pulling %t >>>",
-"Pulling %t!",
+  ">>> Pulling %t <<<",
+  "<<< Pulling %t >>>",
+  "Pulling %t!",
 }
 
 srq_quotes["rez"] = {
-">>> Rezzing %t <<<",
-"<<< Rezzing %t >>>",
-"Incoming rez for %t",
-"Rez: %t",
+  ">>> Rezzing %t <<<",
+  "<<< Rezzing %t >>>",
+  "Incoming rez for %t",
+  "Rez: %t",
 }
 
 srq_quotes["random"] = {
-"Roses are red, violets are blue, all of my base are belong to you.",
+  "Roses are red, violets are blue, all of my base are belong to you.",
 }
 
 srq_quotes["summon"] = {
-"Summoning %t, please click.",
-"%t needs a summon, click please.",
-"Summoning %t.  Clicky clicky por favor.",
+  "Summoning %t, please click.",
+  "%t needs a summon, click please.",
+  "Summoning %t.  Clicky clicky por favor.",
 }
 
 function srq_OnLoad()
@@ -103,27 +103,27 @@ function srq_SlashCommand(var1)
     command = string.sub(var1, 1, index-1);
     parameter = string.sub(var1, index+1);
 
-  -- Otherwise, we just have a command, so set our parameter to whatever chat channel fits.
+    -- Otherwise, we just have a command, so set our parameter to whatever chat channel fits.
 
-  -- Instance group
+    -- Instance group
 
   elseif IsInGroup(LE_PARTY_CATEGORY_INSTANCE) then
     command = var1;
     parameter = "INSTANCE";
 
-  -- Raid group
+    -- Raid group
 
   elseif IsInRaid() then
     command = var1;
     parameter = "RAID";
 
-  -- Party
+    -- Party
 
   elseif IsInGroup(LE_PARTY_CATEGORY_HOME) then
     command = var1;
     parameter = "PARTY";
 
-  -- Say
+    -- Say
 
   else
     command = var1;
