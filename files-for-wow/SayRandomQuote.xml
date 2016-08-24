@@ -1,0 +1,10 @@
+ <UI>
+   <Script file="SayRandomQuote.lua"/>
+   <Frame name="srq_Frame">
+     <Scripts>
+       <OnLoad>
+         srq_OnLoad();
+       </OnLoad>
+     </Scripts>
+   </Frame>
+ </UI>
