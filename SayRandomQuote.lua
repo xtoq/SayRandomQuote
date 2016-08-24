@@ -1,6 +1,6 @@
 srq_quotes = {}
 
-srq_quotes["gratz"] = {
+srq_quotes["grats"] = {
 " /congrats",
 " /congratulations",
 " /grats",
@@ -49,7 +49,7 @@ srq_quotes["random"] = {
 "Roses are red, violets are blue, all of my base are belong to you.",
 }
 
-srq_quotes["summoning"] = {
+srq_quotes["summon"] = {
 "Summoning %t, please click.",
 "%t needs a summon, click please.",
 "Summoning %t.  Clicky clicky por favor.",
