@@ -109,7 +109,7 @@ function srq_SlashCommand(var1)
 
   elseif IsInGroup(LE_PARTY_CATEGORY_INSTANCE) then
     command = var1;
-    parameter = "INSTANCE";
+    parameter = "INSTANCE_CHAT";
 
     -- Raid group
 
