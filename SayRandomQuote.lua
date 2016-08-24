@@ -214,58 +214,6 @@ srq_quotes["drain"] = {
 "",
 }
 
--- ======================================
--- ======================================
---      Don't touch below this line.
--- ======================================
--- ======================================
-
-  -- Code from I Meant to Do That
-
-  -- if self.db[self.db.char.perChar].output == "whisper" then
-    -- if self.db[self.db.char.perChar].reciever then
-      -- if (self.reciever) then
-        -- BNSendWhisper(self.reciever, self.msg)
-      -- else
-        -- SendChatMessage(self.msg, WHISPER, nil, self.db[self.db.char.perChar].reciever)
-      -- end
-    -- else
-      -- mtdt:Print(L["Please set a whisper target!"])
-    -- end
-  -- elseif IsInGroup(LE_PARTY_CATEGORY_INSTANCE) and  (self.db[self.db.char.perChar].output == "instance" or self.db[self.db.char.perChar].output == "smart") then
-    -- SendChatMessage(self.msg, 'INSTANCE_CHAT')
-  -- elseif IsInRaid() and  (self.db[self.db.char.perChar].output == "raid" or self.db[self.db.char.perChar].output == "smart") then
-    -- SendChatMessage(self.msg, 'RAID')
-  -- elseif IsInGroup(LE_PARTY_CATEGORY_HOME) and  (self.db[self.db.char.perChar].output == "party" or self.db[self.db.char.perChar].output == "smart") then
-    -- SendChatMessage(self.msg, 'PARTY')
-  -- elseif self.db[self.db.char.perChar].output == "general" then
-    -- SendChatMessage(self.msg, 'CHANNEL', nil, 1)
-  -- else
-    -- mtdt:Print("No suitable channel found!")
-  -- end
-
--- local options = {
-  -- type = 'group',
-  -- name = L["SayRandomQuote"],
-  -- handler = srqh,
-  -- get = 'Get',
-  -- set = 'Set',
-  -- args = {},
--- }
-
--- function srqh:OnInitialize()
-  -- self.db = LibStub("AceDB-3.0"):New("SayRandomQuoteDB", defaults)
-
-  -- -- options.args.profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(self.db, true)
-  -- LibStub("AceConfig-3.0"):RegisterOptionsTable(L["SayRandomQuote"], options)
-  -- self.profilesFrame = LibStub("AceConfigDialog-3.0"):AddToBlizOptions(L["SayRandomQuote"])
-  -- srqh:RegisterChatCommand("sayrandomquote", "SlashProcessorFunc")
-  -- srqh:RegisterChatCommand("srq", "SlashProcessorFunc")
-  -- srqh:RegisterEvent("PLAYER_DEAD")
-
-  -- self.time = 0
--- end
-
 function srq_OnLoad()
 
   SlashCmdList["SRQ"] = srq_SlashCommand;
