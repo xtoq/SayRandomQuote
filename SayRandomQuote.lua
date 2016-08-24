@@ -1,5 +1,44 @@
 srq_quotes = {}
 
+srq_quotes["rezfunny"] = {
+"Hey the fire DOES buff you %t!",
+"Red rover, red rover, send %t right over!",
+"I rezzed your mom last night %t!",
+"It's ok %t, just blame your death on lag. That's why you didn't get healed...",
+"Aw, how cute, %t's dead AGAIN.",
+"%t fails at life. Literally.",
+"Your subscription to life has expired %t, would you like to renew?",
+"There are worse things then death, %t. Have you ever grouped with Nampy?",
+"Well %t, you tried your best, but apparently your best is pretty terrible.",
+"You don't deserve a cute rez macro, %t. You deserve to die. Oh you did! Karma works.",
+"I'll rez you my pretty, and your little %t too!!!!!",
+"Sorry you died %t, your healer was too busy looking at po...I mean I had baby aggro. Yeah. Baby aggro.",
+"Quick %t, accept this rez before the necrophiliacs get here!",
+"GAME OVER. Restart %t?",
+"Rise and kick moar azz %t.",
+}
+
+srq_quotes["rez"] = {
+">>> Rezzing %t <<<",
+"<<< Rezzing %t >>>",
+">>> Rezzing %t <<<",
+"<<< Rezzing %t >>>",
+">>> Rezzing %t <<<",
+"<<< Rezzing %t >>>",
+">>> Rezzing %t <<<",
+"<<< Rezzing %t >>>",
+">>> Rezzing %t <<<",
+"<<< Rezzing %t >>>",
+"Incoming rez for %t",
+"Rez: %t",
+"Incoming rez for %t",
+"Rez: %t",
+"Incoming rez for %t",
+"Rez: %t",
+"Incoming rez for %t",
+"Rez: %t",
+}
+
 srq_quotes["mount"] = {
 "Regulators...mount up.",
 "I'll get you my pretty, and your little dog too!",
@@ -16,9 +55,9 @@ srq_quotes["mount"] = {
 "",
 }
 
-srq_quotes["guildgratz"] = {
-"/g gratz!",
-"/g congrats!",
+srq_quotes["shortgratz"] = {
+"gratz!",
+"congrats!",
 }
 
 srq_quotes["gratz"] = {
@@ -39,7 +78,62 @@ srq_quotes["gratz"] = {
 "grats. 'There is no happiness except in the realization that we have accomplished something.' - Henry Ford",
 "It is not the mountain we conquer but ourselves. - Edmund Hillary",
 " /congratulations",
-"it's always the adventurous that accomplish great things",
+"It's always the adventurous that accomplish great things",
+"gratz!",
+"gratz",
+"congratulations",
+"GRATZ!",
+"grats",
+"grats!",
+"grats dude",
+"gratz dude",
+"way to go",
+" /congratulations",
+" /grats",
+" /congrats",
+" /gratz",
+"congrats",
+"wtg",
+"here's a cookie",
+"its ggggggggggggggggratz!",
+"starg",
+"congratu-freaking-lations",
+"OMG GRATZ! ;)",
+"if i seem impressed, i'm not. jk! grats. =)",
+"well done",
+"felicidades (congratulations in Spanish)",
+"urime (congratulations in Albanian)",
+"felicitaties (congratulations in Dutch)",
+"onnitlused (congratulations in Estonian)",
+"felicitations (congratulations in French)",
+"parabens (congratulations in Galician, no its not an alien language)",
+"gluckwunsche (congratulations in German)",
+"comhghairdeas (congratulations in Irish)",
+"congratulazioni (congratulations in Italian)",
+"hongera (congratulations in Swahili)",
+"There is only one measurement for success in WoW: BOSS is DEAD = WIN!",
+"o / \\ o High five!",
+" /highfive",
+"\\m/ >.< \\m/ ROCK ON!",
+"garzibalizik (congratulations that I made up just for Furry)",
+"\\o/ yay!",
+"gratz!",
+"jesus how many times do i have to say this in one day? gratz! =)",
+"you want a cookie or something? jk gratz!",
+"here's a cookie: O",
+"here's a cookie: {circle}",
+"V(-.-)V grats",
+"V(-.o)V grats",
+"woot!",
+"w00t",
+"w00+",
+"\\/\\/ O 0 +",
+" /hi5",
+" /high5",
+" /hiphive",
+" /highphive",
+" /highfuckingfive",
+" /hifuqing5",
 }
 
 srq_quotes["random"] = {
@@ -65,6 +159,7 @@ srq_quotes["random"] = {
 "I've never had a problem with drugs, I've only had problems with the police.",
 "The problem with political jokes is that they always get elected.",
 "Fighting for peace is like screwing for virginity.",
+"Your girlfriend ain't mad at you, she's just jealous of your epics.",
 }
 
 srq_quotes["facepalm"] = {
